@@ -1,10 +1,10 @@
 package kopo.poly.service;
 
-import kopo.poly.dto.PriceDTO;
+import kopo.poly.dto.ProductDTO;
 
 import java.util.List;
 
 public interface IProductService{
 
-    List<PriceDTO> performCrawling(String searchKeyword) throws Exception;
+    List<ProductDTO> getProductData(String searchKeyword) throws Exception;
 }

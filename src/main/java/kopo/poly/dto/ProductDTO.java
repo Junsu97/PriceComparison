@@ -9,7 +9,7 @@ import lombok.ToString;
 @Setter
 @Builder
 @ToString
-public class PriceDTO {
+public class ProductDTO {
     private String image;
     private String product;
     private String price;
